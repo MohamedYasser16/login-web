@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    background-image: url(../lone-tree.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Albert Sans", sans-serif;
+} 
+#succ , #succ2 , #already{
+    left: 50%;
+    top: 20px;
+    height: 65px;
+}
+.h-auto {
+    height: auto !important;
+}
+h1{
+    color: aliceblue;
+    font-size: 35px;
+}  
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.wrapper{
+
+    width: 500px;
+    backdrop-filter: blur(9px) ;
+    padding: 10px 40px 40px 40px ;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+.wrapper div {
+    position: relative;
+    /* background-color: burlywood; */
+}
+.wrapper .input {
+    width: 100%;
+    /* height: 40px; */
+    padding: 10px;
+    margin-bottom: 20px;
+    /* position: relative; */
+    border: 0px black solid;
+    border-bottom: 3px burlywood solid;
+    outline: none;
+    font-size: 22px;
+    color: black;
+    background-color: transparent;
+    
+}
+.wrapper .input:focus~label 
+ {
+    top: -10px;
+}
+
+.wrapper div > label {
+
+    position: absolute;
+    left: 5px;
+    top: 30%;
+    transition-duration: 0.5s ;
+}
+.wrapper div > .icon {
+    position: absolute;
+    right: 5px;
+    top: 30%;
+    font-size: 25px;
+    color: black;
+}
+.wrapper button {
+    margin: 20px 0;
+    width: 100%;
+    height: 49px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: antiquewhite;
+    outline: none;
+    border: 0px solid green;
+    cursor: pointer;
+}
+.wrapper  label {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.Forgot {
+    margin: 15px 3px ;
+}
+.d-none {
+    display:none;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-login.css">
+
+
+</head>
+
+<body>
+
+
+    <div id="succ" class="alert alert-success position-absolute translate-middle-x d-none" role="alert">
+       <p> A successful register !</p>
+    </div>
+
+    <div id="succ2" class="alert alert-danger position-absolute translate-middle-x d-none text-center p-1 px-3" role="alert">
+        A fail register !
+    
+    </div>
+    <div id="already" class="alert alert-warning position-absolute translate-middle-x d-none text-center p-1  " role="alert">
+      <p> You already have an account !
+        <br>
+        login to your account </p>
+      </div>
+
+    <div class="wrapper py-3">
+
+        <h1 class="my-3">Registration</h1>
+
+
+        <div class="email">
+
+            <input id="email" class="input py-2" type="text">
+            <span id="mesIcon" class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <label class="lab"> Email </label>
+
+        </div>
+
+
+        <div class="password py-2">
+            <span id="lockIcon1" class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input id="password1" class="input input-pass " type="password">
+            <label class="lab"> PassWord </label>
+
+        </div>
+
+        <div class="password py-2">
+            <span id="lockIcon2" class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input id="password2" class="input input-pass " type="password">
+            <label id="lab2" class="lab">RePassWord </label>
+
+        </div>
+
+        <input class="Forgot " type="checkbox">
+        <label class="Forgot">remember me </label>
+        <a href="">Forgot PassWord?</a>
+        <br>
+        <a id="ancher">
+            <button>Register</button>
+        </a>
+
+        <br>
+        <label id="la" class="text-white">Do you have an account?</label>
+        <a id="last" class="text-white-50 fs-5 ms-1">Login</a>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/js1.js"></script>
+
+</body>
+
+</html>

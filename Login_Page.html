@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-login.css">
+</head>
+<body>
+    
+    <div id="succ" class="alert alert-success position-absolute translate-middle-x d-none text-center p-1 h-auto" role="alert">
+        A successful login !
+        <br>
+        <img class="w-100"  src="img/icons8-tick.gif" alt="img">
+    </div>
+
+    <div id="succ2" class="alert alert-danger position-absolute translate-middle-x d-none text-center p-1" role="alert">
+         <span>A fail login !</span>
+        <br>
+         <span>wrong PassWord</span>
+        <br>
+        <!-- <img class="w-50" src="img/icons8-close-window.gif" alt="img"> -->
+    </div>
+
+
+<div class="wrapper p-4">
+
+    <h1>login</h1>
+  
+        <div class="email">
+
+            <input id="email" class="input py-2" type="text">
+            <span id="mesIcon" class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <label class="lab"> Email </label>
+
+        </div>
+
+
+        <div class="password py-2">
+            <span id="lockIcon1" class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input id="password1" class="input input-pass " type="password">
+            <label class="lab"> PassWord </label>
+
+        </div>
+
+        <a id="ancher">
+            <button>Login</button>
+        </a>
+</div>
+
+<script src="js/js2.js"></script>
+</body>
+</html>

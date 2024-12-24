@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.ratio>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+.f-12px {
+    font-size: 12px;
+}
+.fs-13px {
+    font-size: 13px;
+}
+.textl {
+    color: #BD41FF;
+}
+.w-33 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-50px {
+    width: 40px;
+    height: 40px;
+}
+.div1 {
+    width: 30%;
+    height: 150vh;
+    /* background-color: #BD41FF; */
+    background-image: linear-gradient(-15deg ,#BD41FF , #d6197b);
+    top: -67%;
+    left: -5%;
+}
+.div2 {
+    width: 30%;
+    height: 700px;
+    background-color: #FAF4FB;
+   
+    bottom: 0%;
+    right: -8%;
+
+}
+
+.iphone-frame {
+    width: 340px;
+    height: 700px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 30px gray;
+}
+
+.inner-frame {
+    top: 13px;
+    right: 13px;
+    left: 13px;
+    bottom: 13px;
+    border-radius: 40px;
+    background-color: #f6eff8;
+    box-shadow: 0px 0px 2px rgb(189, 184, 184);
+
+}
+.notch {
+    height: 40px;
+    width: 170px;
+}
+.fGr {
+    color: transparent;
+    background-image: url(../images/Capture.JPG);
+    background-clip: text;
+}
+/* inner content */
+.in1 {
+    width: 100%;
+    height: 90px ;
+    background-image: linear-gradient(-15deg ,#BD41FF , #d6197b);
+}
+.in2 {
+    height: 100%;
+    top: 0px ;
+    bottom: 0px ;
+    right: 0;
+    left: 0;
+  
+}
+.con-in1 {
+    bottom: 12px;
+    left: 20px;
+}
+
+.img-in1 {
+    width: 40px;
+    height: 40px;
+
+    
+}
+/* .i-end {
+    right: 10px;
+    bottom: ;
+} */
+ .mesg1 {
+background-color: rgba(214,25,123,0.0999);
+margin-left: 7px;
+
+ }
+ .mesg1-in1 {
+    background-image: linear-gradient(-15deg ,#BD41FF , #d6197b);
+color: white;    
+     }
+ .mesg2 {
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 7px;
+    
+     }
+
+.footer {
+    position: absolute;
+    
+    height: 60px;
+    bottom: 108px;
+    right: 10px;
+    left: 10px;
+    border-radius: 40px;
+
+}
+/* @media  ( min-width:991px )  and ( max-width : 1200px ) {
+    
+    .iphone-frame {
+        /* width: 360px; */
+        /* height: 675px; */
+        /* border-radius: 50px;
+        box-shadow: 3px 3px 30px gray;
+    } */
+  /* .fs-13px {
+    font-size: 12px;
+  } */
+  /* .w-70 {
+    width: 85%;
+  } */
+/*
+} */
+/* @media  ( min-width:992px )  and ( max-width : 1148px ) {
+    
+    .iphone-frame {
+        width: 360px;
+        height: 710px;
+        border-radius: 50px;
+        box-shadow: 3px 3px 30px gray;
+    }
+  
+
+} */
+/* @media ( max-width : 780px ) {
+      
+  
+    .div1 {
+        width: 50%;
+
+    }
+    .div2 {
+        width: 40%;
+        height: 500px;
+    
+    }
+
+} */
