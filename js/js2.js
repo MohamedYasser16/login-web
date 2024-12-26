@@ -149,7 +149,7 @@ ancher.addEventListener("click" , ()=>{
         // }  , 1000 )
         alert2.classList.add("d-none");
     setTimeout( ()=>{
-        location.href="home.html" ;
+        location.href="https://challenge-front-mentor-lyart.vercel.app/" ;
         alert1.classList.add("d-none")
         emailInput.value = ""
         passInput.value = ""
